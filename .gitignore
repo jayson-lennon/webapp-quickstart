@@ -1,0 +1,21 @@
+# Rust
+**/target
+**/*.rs.bk
+
+# Database files
+**/*.sqlite
+**/*.sqlite-journal
+
+# Dist
+**/dist
+
+# Build artifacts
+scratch/
+
+# Web
+node_modules/
+**/.sass-cache/
+
+# Random
+.env
+deploy.justfile
