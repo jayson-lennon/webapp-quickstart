@@ -1,0 +1,36 @@
+@import "reset.scss";
+@import "variables.scss";
+@import "_breakpoints.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  background: $color-background;
+  background-attachment: fixed;
+  color: $color-font;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+}
+
+main {
+  margin: $space-xl;
+}
+
+hr {
+  border-top: 1px solid $color-gray5;
+  border-bottom: none;
+  margin-top: $space-xl;
+  margin-bottom: $space-xl;
+}
+
+@include tablet-up {
+}
+

@@ -1,0 +1,14 @@
+[Unit]
+Description=App description
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/your-executable-path-here
+WorkingDirectory=/your-working-directory-here
+Restart=on-abort
+#Environment=custom environment vars (if needed)
+
+[Install]
+WantedBy=multi-user.target

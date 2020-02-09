@@ -1,21 +1,22 @@
 # Rust
 **/target
 **/*.rs.bk
+**/Cargo.lock
+**/wasm-pack.log
 
 # Database files
 **/*.sqlite
 **/*.sqlite-journal
 
 # Dist
-**/dist
+**/dist/
 
 # Build artifacts
-scratch/
+**/scratch/
 
 # Web
-node_modules/
+**/node_modules/
 **/.sass-cache/
 
-# Random
-.env
-deploy.justfile
+# Miscellaneous
+**/.env
