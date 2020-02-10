@@ -1,7 +1,7 @@
 # Webapp-Quickstart
 This quickstart repo is for a web application project using the `just` command runner.
 
-*Usage:*
+**Usage:**
 Make sure you have the [just](https://github.com/casey/just) command runner installed.
 
 1. `git clone https://github.com/jayson-lennon/webapp-quickstart`: clone the repo
