@@ -23,7 +23,7 @@
     <meta name="theme-color" content="#000000">
     <meta name="description" content="YOUR APP DESCRIPTION">
     <meta name="author" content="YOUR_NAME<your_email@example.com>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="/static/style/main.css">
@@ -33,12 +33,15 @@
     </head>
 
     <body>
-        <section id="app"></section>
-        <script type="module">
-            // https://rustwasm.github.io/docs/wasm-bindgen/examples/without-a-bundler.html
-            import init from '/pkg/package.js';
-            init('/pkg/package_bg.wasm');
-        </script>
+
+      <script src="/static/script/hello.js"></script>
+
+      <section id="app"></section>
+      <script type="module">
+          // https://rustwasm.github.io/docs/wasm-bindgen/examples/without-a-bundler.html
+          import init from '/pkg/package.js';
+          init('/pkg/package_bg.wasm');
+      </script>
 
     </body>
 </html>
